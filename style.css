@@ -28,6 +28,7 @@ body{
     height: 120px;
     padding: 10px;
     background: rgba(116, 115, 115, 0.582);
+    border-radius: 20px;
 }
 
 #education{
@@ -36,13 +37,15 @@ body{
     padding: 10px;
     border: 0.2rem outset black;
     background: hsl(54, 39%, 70%);
+    border-radius: 20px;
 }
 
 #higher-education{
     width: 520px;
-    height: 80px;
+    height: 90px;
     padding: 10px;
     background: rgba(116, 115, 115, 0.582);
+    border-radius: 20px;
 }
 
 
