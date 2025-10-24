@@ -17,6 +17,26 @@ body{
     color: black;
 }
 
+a:hover .fa-brands.fa-github{
+    color: rgba(99, 97, 97, 0.507);
+}
+
+.fa-brands.fa-linkedin-in{
+    color: black;
+}
+
+a:hover .fa-brands.fa-linkedin-in{
+    color: rgba(99, 97, 97, 0.507);
+}
+
+.fa-brands.fa-instagram{
+    color: black;
+}
+
+a:hover .fa-brands.fa-instagram{
+    color: rgba(99, 97, 97, 0.507);
+}
+
 
 #header-welcome{
     position: relative;
