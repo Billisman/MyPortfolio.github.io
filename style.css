@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    background-color: hwb(48 65% 23%);
+    background-color: black;
 }
 
 .icons{
@@ -14,27 +14,27 @@ body{
 }
 
 .fa-brands.fa-github{
-    color: black;
+    color: aqua;
 }
 
 a:hover .fa-brands.fa-github{
-    color: rgba(99, 97, 97, 0.507);
+    color: rgba(0, 255, 255, 0.705);
 }
 
 .fa-brands.fa-linkedin-in{
-    color: black;
+    color: aqua;
 }
 
 a:hover .fa-brands.fa-linkedin-in{
-    color: rgba(99, 97, 97, 0.507);
+    color: rgba(0, 255, 255, 0.705);
 }
 
 .fa-brands.fa-instagram{
-    color: black;
+    color: aqua;
 }
 
 a:hover .fa-brands.fa-instagram{
-    color: rgba(99, 97, 97, 0.507);
+    color: rgba(0, 255, 255, 0.705);
 }
 
 
@@ -45,6 +45,7 @@ a:hover .fa-brands.fa-instagram{
     margin-right: auto;
     bottom: 80px;
     font-size: 29px;
+    color: aqua;
 }
 
 #intro-titles{
@@ -54,6 +55,7 @@ a:hover .fa-brands.fa-instagram{
     padding: 10px;
     background: rgba(158, 156, 156, 0.582);
     border-radius: 20px;
+    color: aqua;
 }
 
 #education{
@@ -61,7 +63,7 @@ a:hover .fa-brands.fa-instagram{
     height: 80px;
     padding: 10px;
     border: 0.2rem outset black;
-    background: hsl(54, 39%, 70%);
+    background: aqua;
     border-radius: 20px;
 }
 
@@ -71,6 +73,7 @@ a:hover .fa-brands.fa-instagram{
     padding: 10px;
     background: rgba(158, 156, 156, 0.582);
     border-radius: 20px;
+    color: aqua;
 }
 
 .technical-experience{
@@ -80,9 +83,13 @@ a:hover .fa-brands.fa-instagram{
 
 .tech-exp{
     border: 0.1rem outset black;
-    width: 20px;
-    height: 25px;
-    margin: 10px;
+    width: 50px;
+    height: 45px;
+    margin: 15px;
+    color: aqua;
+    font-size: 40px;
+    display: inline-block;
+    box-shadow: 5px 4px 5px;
 }
 
 #about-me{
@@ -93,6 +100,7 @@ a:hover .fa-brands.fa-instagram{
     border: 0.2rem outset black;
     background: rgba(158, 156, 156, 0.582);
     border-radius: 20px;
+    color: aqua;
 }
 
 
