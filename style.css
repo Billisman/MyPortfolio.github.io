@@ -73,6 +73,18 @@ a:hover .fa-brands.fa-instagram{
     border-radius: 20px;
 }
 
+.technical-experience{
+    font-size: 20px;
+    color: aqua;
+}
+
+.tech-exp{
+    border: 0.1rem outset black;
+    width: 20px;
+    height: 25px;
+    margin: 10px;
+}
+
 #about-me{
     font-size: 20px;
     width: 1850px;
