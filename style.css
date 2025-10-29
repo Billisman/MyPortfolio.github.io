@@ -5,12 +5,13 @@ body{
 }
 
 .icons{
-    position: relative;
+    position: fixed;
     max-width: fit-content;
     margin-left: auto;
-    right: 30px;
-    bottom: 280px;
-    font-size: 2.8125rem;
+    top: 0;
+    right: 0;
+    padding: 60px;
+    font-size: 50px;
 }
 
 .fa-brands.fa-github{
@@ -39,13 +40,23 @@ a:hover .fa-brands.fa-instagram{
 
 
 #header-welcome{
-    position: relative;
-    top: 10px;
-    max-width: fit-content;
+    top: 0;
     margin-right: auto;
     bottom: 80px;
     font-size: 29px;
     color: aqua;
+    background-color: black;
+    text-align: center;
+    position: sticky;
+}
+
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 5px solid aqua;
+    display: block;
+    margin: auto;
 }
 
 #intro-titles{
@@ -56,15 +67,14 @@ a:hover .fa-brands.fa-instagram{
     background: rgba(158, 156, 156, 0.582);
     border-radius: 20px;
     color: aqua;
+    text-align: center;
+    margin: auto;
 }
 
 #education{
-    width: 160px;
-    height: 80px;
-    padding: 10px;
-    border: 0.2rem outset black;
-    background: aqua;
-    border-radius: 20px;
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
 }
 
 #higher-education{
@@ -74,22 +84,128 @@ a:hover .fa-brands.fa-instagram{
     background: rgba(158, 156, 156, 0.582);
     border-radius: 20px;
     color: aqua;
+    text-align: center;
+    margin: auto;
 }
 
 .technical-experience{
     font-size: 20px;
     color: aqua;
+    text-align: center;
+    
 }
 
-.tech-exp{
-    border: 0.1rem outset black;
-    width: 50px;
-    height: 45px;
-    margin: 15px;
+.exp{
+    display: flex;
+    justify-content: center;
+}
+
+.html{
+    font-size: 20px;
     color: aqua;
-    font-size: 40px;
-    display: inline-block;
-    box-shadow: 5px 4px 5px;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.css{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.c-sharp{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.rust{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.gdscript{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.python{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.javascript{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.unity{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.git{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.typescript{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.react{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
+}
+
+.nodejs{
+    font-size: 20px;
+    color: aqua;
+    border: 0.1rem outset white;
+    padding: 5px;
+    box-shadow: 3px 5px 10px white;
+    margin: 5px;
 }
 
 #about-me{
